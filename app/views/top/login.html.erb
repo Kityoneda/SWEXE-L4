@@ -1,0 +1,8 @@
+<%= form_tag '/top/login', method: :post do %>
+    <%= label_tag :uid ,'user id' %>
+    <%= text_field_tag :uid %>
+    <%= label_tag :pass ,'pass' %>
+    <%= password_field_tag :pass %>
+    <%= submit_tag 'submit' %>
+<% end %>
+    
